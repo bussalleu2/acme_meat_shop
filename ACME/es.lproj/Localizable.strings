@@ -1,0 +1,11 @@
+/* 
+  File.strings
+  ACME
+
+  Created by Alba on 4/2/17.
+  Copyright © 2017 bussalleu. All rights reserved.
+*/
+"appName" = "ACME-SPANISH";
+"shop1"="Meat Shop Beef";
+"shop2"="Supermarket Jhons";
+"shop3"="Restaurant Happy meal";

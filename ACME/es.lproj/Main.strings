@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "No tenemos bandejas preparadas. Nuestro corte es artesano y profesional."; ObjectID = "Cbq-gq-ZcZ"; */
+"Cbq-gq-ZcZ.text" = "No tenemos bandejas preparadas. Nuestro corte es artesano y profesional.";
+
+/* Class = "UILabel"; text = "Realicen su pedido hoy mismo y mañana lo tendran listo en su domicilio."; ObjectID = "CpC-gB-PjH"; */
+"CpC-gB-PjH.text" = "Realicen su pedido hoy mismo y mañana lo tendran listo en su domicilio.";
+
+/* Class = "UILabel"; text = "Charcutería"; ObjectID = "Jsw-tN-b5z"; */
+"Jsw-tN-b5z.text" = "Charcutería";
+
+/* Class = "UILabel"; text = "En Carnicerias ACME ponemos a su disposicion las mejores carnes, embutidos y platos preparados, entre otras delicias gourmet"; ObjectID = "Kz4-hM-zbg"; */
+"Kz4-hM-zbg.text" = "En Carnicerias ACME ponemos a su disposicion las mejores carnes, embutidos y platos preparados, entre otras delicias gourmet";
+
+/* Class = "UILabel"; text = "Calidad"; ObjectID = "M0Y-cE-Rjm"; */
+"M0Y-cE-Rjm.text" = "Calidad";
+
+/* Class = "UILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Loaded by SecondViewController";
+
+/* Class = "UILabel"; text = "Restauración"; ObjectID = "Utj-92-ype"; */
+"Utj-92-ype.text" = "Restauración";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Home";
+
+/* Class = "UILabel"; text = "Servicio 24 h"; ObjectID = "dMT-dv-3jQ"; */
+"dMT-dv-3jQ.text" = "Servicio 24 h";
+
+/* Class = "UILabel"; text = "Corte tradicional"; ObjectID = "e8r-bl-gA1"; */
+"e8r-bl-gA1.text" = "Corte tradicional";
+
+/* Class = "UILabel"; text = "Reparto a domicilio"; ObjectID = "exF-5s-BNh"; */
+"exF-5s-BNh.text" = "Reparto a domicilio";
+
+/* Class = "UILabel"; text = "Servimos a los mejores restaurantes de Zaragoza. Si regentas un restaurante llámanos."; ObjectID = "fFS-E7-Hpk"; */
+"fFS-E7-Hpk.text" = "Servimos a los mejores restaurantes de Zaragoza. Si regentas un restaurante llámanos.";
+
+/* Class = "UILabel"; text = "Carne de calidad de los valles pirenaicos. Con las mejores garantías de sanidad y sabor."; ObjectID = "g2d-Dd-dK9"; */
+"g2d-Dd-dK9.text" = "Carne de calidad de los valles pirenaicos. Con las mejores garantías de sanidad y sabor.";
+
+/* Class = "UILabel"; text = "PRESENTACIÓN"; ObjectID = "ggs-uu-l2X"; */
+"ggs-uu-l2X.text" = "PRESENTACIÓN";
+
+/* Class = "UILabel"; text = "En nuestro transporte refrigerado garantizamos que cumpileremos en 24 h con nuestros compromisos"; ObjectID = "uOh-MD-hQj"; */
+"uOh-MD-hQj.text" = "En nuestro transporte refrigerado garantizamos que cumpileremos en 24 h con nuestros compromisos";
+
+/* Class = "UILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Second View";
