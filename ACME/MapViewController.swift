@@ -44,15 +44,12 @@ class MapViewController: UIViewController {
                     marker.map = mapView
                 }
             }
-            
             }
             
         }
-        
-    
-    }
+   }
     
 }
 
-    
+
 
