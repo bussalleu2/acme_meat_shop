@@ -29,7 +29,6 @@ class Photo: NSObject {
         self.farm = String(farm)
         self.url = url;
         self.title  = title
-        
     }
     
     
