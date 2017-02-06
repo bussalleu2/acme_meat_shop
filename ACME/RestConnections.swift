@@ -53,7 +53,48 @@ class RestConnections: NSObject {
         
     }
     
+
+
+func getPlaces(completion: @escaping ([Place]?, Error?)->()){
+    let requestURL = URL(string:"\(Constants.baseURLGoogleMaps)location=41.385813,2.166508&radius=150&types=grocery_or_supermarket&key=\(Constants.apiKeyMap)");
+    URLSession.shared.dataTask(with: requestURL!) { data, response, error in
+        if error != nil{
+            print("Error -> \(error)")
+            return
+        }
+        do {
+            var places  = [Place]()
+            let result = try JSONSerialization.jsonObject(with:data!, options: []) as? [String:AnyObject]
+            let arrPlaces = result?["results"] as? [[String:AnyObject]]
+            
+            
+            for p in arrPlaces!
+            {
+                
+                 let geometry: [String:AnyObject] = (p["geometry"] as? [String:AnyObject])!
+                 let location: [String:AnyObject] = (geometry["location"] as? [String:AnyObject])!
+                 let lat: Double = (location["lat"] as? Double)!
+                 let lng: Double = (location["lng"] as? Double)!
+                 let name: String = (p["name"] as? String)!
+                 let place = Place (name: name,latitude:lat,longitude: lng)
+                
+                 places.append(place)
+                
+            }
+            completion(places,nil);
+            
+            
+            print("Result -> \(result)")
+            
+        } catch {
+            print("Error -> \(error)")
+        }
+        }.resume()
+    
+    
 }
+
+
 
 
 private func executeRequest(withURL url: URL, completion: @escaping ([String:AnyObject]?, Error?)->()) {
@@ -78,4 +119,4 @@ private func executeRequest(withURL url: URL, completion: @escaping ([String:Any
 }
 
 
-
+}

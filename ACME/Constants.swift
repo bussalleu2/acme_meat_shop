@@ -14,4 +14,5 @@ class Constants: NSObject {
     static let userFlickr = "147385463@N04"
     static let apiKeyMap = "AIzaSyDh44YW5VLtT5Q2VzBWE4EpWQ-0JP0enXg"
     static let baseURLTwitter = "https://twitter.com/search?q=%22meat%20is%20healthy%22"
+    static let baseURLGoogleMaps = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?"
 }

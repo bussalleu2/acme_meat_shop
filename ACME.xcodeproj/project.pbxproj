@@ -20,6 +20,7 @@
 		65142DC71E463CBF00952387 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 65142DC61E463CBF00952387 /* Podfile */; };
 		65142DCB1E46567E00952387 /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65142DCA1E46567E00952387 /* TweetsViewController.swift */; };
 		65142DD21E465D7800952387 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65142DCE1E465BC500952387 /* Localizable.strings */; };
+		65142DD51E48A50000952387 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65142DD41E48A50000952387 /* Place.swift */; };
 		6D4CE8CAE153159B8B46F67F /* libPods-ACME.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BC49F1E58C231E1CD86D66 /* libPods-ACME.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		65142DD01E465BFE00952387 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		65142DD11E465BFE00952387 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		65142DD31E465E1800952387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		65142DD41E48A50000952387 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		67BC49F1E58C231E1CD86D66 /* libPods-ACME.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ACME.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95ADC10C282081646A618BC8 /* Pods-ACME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACME.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACME/Pods-ACME.release.xcconfig"; sourceTree = "<group>"; };
 		989935D9B2FA7DBD72B9B390 /* Pods-ACME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACME.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACME/Pods-ACME.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				65142DC21E4618A400952387 /* Photo.swift */,
 				65142DC41E462EF400952387 /* UIImageView+Url.swift */,
 				65142DCE1E465BC500952387 /* Localizable.strings */,
+				65142DD41E48A50000952387 /* Place.swift */,
 			);
 			path = ACME;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				65142DC11E45F1C100952387 /* Constants.swift in Sources */,
 				65142DAF1E45D99700952387 /* MapViewController.swift in Sources */,
 				65142DBF1E45F0CC00952387 /* RestConnections.swift in Sources */,
+				65142DD51E48A50000952387 /* Place.swift in Sources */,
 				65142DAB1E45D99700952387 /* AppDelegate.swift in Sources */,
 				65142DAD1E45D99700952387 /* PresentationsController.swift in Sources */,
 			);
